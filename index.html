@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://fonts.googleapis.com/css?family=Philosopher" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/af01b11541.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="responsive.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Grey+Qo&family=Sofia&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+ </head>
+
+
+<body>
+
+  <header>
+    <div class="container">
+      <div class="header-menu">
+        <div class="header-title">
+          <h1>Taeeun Kim</h1>
+        </div>
+        <div class="nav">
+          <ul class="nav-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#works">Works</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <div class="top-wrapper">
+    <div class="background">
+      <img src="images/plane.png" alt="">
+
+      <div class="flag">
+        <img class="topimg1" src="images/korea.png" alt="">
+        <img class="topimg2" src="images/japan.png" alt="">
+        <img class="topimg3" src="images/usa.png" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="about-wrapper">
+    <div class="container">
+      <h1 class="logo" id="about">About</h1>
+
+      <div class="contents">
+        <div class="myphoto">
+          <img src="images/mainphotocircle.jpg" alt="">
+        </div>
+
+        <div class="textarea">
+          <p class="name">はじめまして、金兌恩（キムテウン）と申します。</p>
+          <p class="maintext">韓国出身の理系女子です。<br>
+            大学3年生の時に一年間交換留学生として日本に滞在し、大学卒業後に改めて日本の大学院に進学し、修士号を取得しました。<br>
+            大学院卒業後は、とある東証一部上場のオーディオメーカーにて正社員として8年8ヶ月間設計業務を行いました。<br>
+            現在はアメリカ在住ですが、渡米するまでの12年間、学生や社会人として日本で生活してきた事、<br>
+            さらに配偶者が日本人という事もあり、日本語に堪能です（韓国語はもちろん、英語も得意です）。<br>
+            日本やアメリカ、韓国での様々な経験を活かし、高いクオリティでの作業をさせていただき、信頼関係を結んでいきたいと思います。</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="skill-wrapper">
+    <div class="container">
+      <h1 class="logo" id="skills">Skills</h1>
+
+      <div class="skill-contents">
+
+        <div class="skill-icons">
+          <i class="fab fa-html5 fa-7x my-orange"></i>
+          <i class="fab fa-css3-alt fa-7x my-blue"></i>
+          <i class="fab fa-php fa-7x my-darkblue"></i>
+          <i class="fab fa-js-square fa-7x my-yellow"></i>
+          <i class="fab fa-wordpress fa-7x my-deepblue"></i>
+          <i class="fab fa-sass fa-7x my-pink"></i>
+        </div>
+
+        <div class="skill-textarea">
+          <p class="skill-text">HTML/CSSを用いてWebサイトを作成します。ご希望のディバイスに合わせたレスポンシブデザインも可能です。<br>
+            WordPress、PHP、Sass、JavaScriptのライブラリの基本的なコード（jQuery）も問題なく作成できます。<br>
+            使用エディタはVisualStudioCodeです。</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  
+
+  <div class="works-wrapper">
+    <div class="container">
+      <h1 class="logo" id="works">Works</h1>
+      <p>制作物の一部をご紹介します。</p>
+      <div class="work-contents">
+        <a href="WCBcafe/index.html"><img src="images/web-sample1.png" alt=""></a>
+        <a href="mytheme/index.html"><img src="images/wordpress1.png" alt=""></a>
+        <a href="pacificmall/index.html"><img src="images/wordpress2.png" alt=""></a>
+        <a href="fashion/index.html"><img src="images/sample1.png" alt=""></a>
+        <a href="CompanyName/index.html"><img src="images/sample2.png" alt=""></a>
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="contact-wrapper">
+    <div class="container">
+      <h1 class="logo" id="contact">Contact</h1>
+
+      <form action="contactform.php" method="post">
+        <label for="name">お名前</label>
+        <input type="text" id="name" name="fullname" >
+
+        <label for="email">メールアドレス</label>
+        <input type="email" id="email" name="email" >
+
+        <label for="message">メッセージ</label>
+        <textarea name="message" id="message" ></textarea>
+
+        <input type="submit" name="confirm" value="確認" class="conrfirm" >
+
+      </form>
+
+
+    </div>
+  </div>
+
+
+
+
+
+
+
+  <footer>
+    <div class="container">
+      <div class="nav">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#works">Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
